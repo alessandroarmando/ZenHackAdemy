@@ -30,8 +30,7 @@ menu: home
 
 	  <p>ZenHackAdemy is a collaborative project between the <a href="http://www.csec.it">Computer Security Research Laboratory</a> at <a href="http://www.dibris.unige.it">DIBRIS</a> of the <a href="https://www.unige.it">University of Genoa</a> and the <a href="http://zenhack.it">ZenHack</a> ethical hacking team that aims to bridge the gap between these two types of training and to develop new Cybersecurity training techniques and tools to train the next generation of Cybersecurity experts.
 	    
-
-            <p>To get in touch, please write to <a href="http://www.dibris.unige.it/armando-alessandro">prof. Alessandro Armando</a> (<a href="http://csec.it">Computer Security Laboratory</a>) or to <a href="mailto:info@zenhack.team">info@zenhack.team</a>.</p>
+            <p>To get in touch, please write to <a href="https://csec.it/people/alessandro_armando">prof. Alessandro Armando</a> (<a href="">Computer Security Laboratory</a>) or to <a href="mailto:info@zenhack.team">info@zenhack.team</a>.</p>
         </div>
     </div>
 
@@ -49,7 +48,7 @@ menu: home
     </div>
 
 
-    <!-- CTFs -->
+    <!-- Projects -->
     <div class="row justify-content-center mt-5">
         <div class="col-12 col-lg-10 border-bottom border-zx2">
             <h3 class="text-zx2 text-center text-lg-left"><i class="fas fa-award"></i>Projects</h3>
@@ -68,5 +67,55 @@ menu: home
         </div>
     </div>
 
+    <!-- Members -->
+    <div class="row justify-content-center mt-5">
+        <div class="col-12 col-lg-10 border-bottom border-zx3">
+            <h3 class="text-zx3 text-center text-lg-left"><i class="fas fa-user-shield"></i>People</h3>
+        </div>
+    </div>
+
+    <div class="row">
+
+        {% for member in site.data.members %}
+
+        <div class="col-md-3 d-none d-md-block align-items-center justify-content-center mt-5">
+
+            <div class="col-12 text-center">
+                <img src="images/members/{{member.nickname}}.jpg"
+                    class="text-center rounded w-75 h-auto border border-white">
+            </div>
+            <div class="col-12 text-center">
+                <h5 class="my-1 mt-3">{{member.name}}</h5>
+                <!-- <p class="my-1"><a href="{{member.link}}">@{{member.nickname}}</a></p> -->
+                <!-- <p class="my-1"> -->
+                <!--     {% for category in member.ctf %} -->
+                <!--     <span class="badge border-white badge-{{category}}">{{category}}</span> -->
+                <!--     {% endfor %} -->
+                <!-- </p> -->
+                <p class="my-1">{{member.description}}</p>
+            </div>
+        </div>
+
+        <div class="col-12 d-flex d-md-none align-items-center justify-content-center mt-3">
+
+            <div class="col-3 text-center">
+                <img src="images/members/{{member.nickname}}.jpg"
+                    class="text-center rounded w-100 h-auto border border-white">
+            </div>
+            <div class="col-9 text-left">
+                <h5 class="my-1 mt-3">{{member.name}}</h5>
+                <p class="my-1"><a href="{{member.link}}">@{{member.nickname}}</a></p>
+                <p class="my-1">
+                    {% for category in member.ctf %}
+                    <span class="badge border-white badge-{{category}}">{{category}}</span>
+                    {% endfor %}
+                </p>
+                <p class="my-1">{{member.description}}</p>
+            </div>
+        </div>
+
+        {% endfor %}
+
+    </div>
 
 </div>
