@@ -1,0 +1,112 @@
+:root {
+  --base03: #002b36;
+  --base02: #073642;
+  --base015: #264b55;
+  --base01: #586e75;
+  --base00: #657b83;
+  --base0: #839496;
+  --base1: #93a1a1;
+  --base2: #eee8d5;
+  --base3: #fdf6e3;
+  --yellow: #b58900;
+  --orange: #cb4b16;
+  --red: #dc322f;
+  --magenta: #d33682;
+  --violet: #6c71c4;
+  --blue: #268bd2;
+  --cyan: #2aa198;
+  --green: #859900;
+
+  --zx1: #c01d30;
+  --zx2: #f6ce17;
+  --zx3: #89c541;
+  --zx4: #0d75bc;
+  
+  --rainbow1: #238647;
+  --rainbow2: #2F9B47;
+  --rainbow3: #62B64F;
+  --rainbow4: #89CC53;
+  --rainbow5: #3DB8AD;
+  --rainbow6: #3394D7;
+  --rainbow7: #2872BC;
+  --rainbow8: #1D5C84;
+  --rainbow9: #993233;
+  --rainbow10: #E13030;
+  --rainbow11: #F28825;
+  --rainbow12: #F5C836;
+}
+
+
+body {
+  background-color: var(--base03);
+  color: var(--base0);
+  color: var(--base1);
+}
+
+a,
+a:active,
+a:hover,
+a:visited {
+  color: var(--base3);
+}
+
+.text-zx1 { color: var(--zx1) !important; }
+.text-zx2 { color: var(--zx2) !important; }
+.text-zx3 { color: var(--zx3) !important; }
+.text-zx4 { color: var(--zx4) !important; }
+.border-zx1 { border-color: var(--zx1) !important; }
+.border-zx2 { border-color: var(--zx2) !important; }
+.border-zx3 { border-color: var(--zx3) !important; }
+.border-zx4 { border-color: var(--zx4) !important; }
+.bg-zx1 { background-color: var(--zx1) !important; }
+.bg-zx2 { background-color: var(--zx2) !important; }
+.bg-zx3 { background-color: var(--zx3) !important; }
+.bg-zx4 { background-color: var(--zx4) !important; }
+
+.bg-base03 { background-color: var(--base03) !important;}
+.bg-base02 { background-color: var(--base02) !important;}
+.bg-base01 { background-color: var(--base01) !important;}
+.bg-base00 { background-color: var(--base00) !important;}
+
+
+.badge { color: #ffffff; }
+.badge-web       { background-color: var(--rainbow1) !important; }
+.badge-rev       { background-color: var(--rainbow2) !important; }
+.badge-network   { background-color: var(--rainbow3) !important; }
+.badge-forensics { background-color: var(--rainbow4) !important; }
+.badge-guessing  { background-color: var(--rainbow5) !important; }
+.badge-misc      { background-color: var(--rainbow8) !important; }
+.badge-advml     { background-color: var(--rainbow9) !important; }
+.badge-ppc       { background-color: var(--rainbow10) !important; }
+.badge-pwn       { background-color: var(--rainbow11) !important; }
+.badge-crypto    { background-color: var(--rainbow12) !important; }
+
+.text-pos1 { color: gold !important; }
+.text-pos2 { color: silver !important; }
+.text-pos3 { color: brown !important; }
+
+.highlight, code span.w { background: inherit !important; }
+div.highlighter-rouge, pre:not(.highlight) { /* pre is fallback */
+    padding: 16px 20px 0 20px;
+    border: solid 1px var(--base015);
+    border-radius: 6px;
+    margin-bottom: 16px;
+    background: var(--base02);
+}
+pre:not(.highlight) {
+    color: #d0d0d0 !important;
+    padding-bottom: 16px;
+}
+
+blockquote {
+    border-left: solid 6px var(--base01);
+    padding-left: 20px;
+    font-style: italic;
+    color: var(--base00);
+}
+
+.writeup-container img, .post-container img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}

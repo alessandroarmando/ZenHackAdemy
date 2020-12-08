@@ -1,0 +1,39 @@
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-base02 text-white shadow p-0 px-lg-3 py-lg-2 navbar-fixed-top">
+
+        <div class="d-flex w-50 order px-3 py-2 p-lg-0 text-right text-lg-left">
+            <a href="/" class="navbar-brand"><img src="https://leoctf.dibris.unige.it/themes/core/static/img/ZHA.png" class="d-inline-block align-top" height="52" /></a>
+        </div>
+
+        <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+            class="navbar-toggler border-0 px-3 py-2 p-lg-0"><span _ngcontent-ber-c88=""
+                class="navbar-toggler-icon"></span></button>
+
+
+        <div class="collapse navbar-collapse justify-content-center bg-blue order-2" id="navbarSupportedContent">
+            <ul class="navbar-nav" style="min-width: min(100vw, 530px);">
+
+                <li class="nav-item active dropdown position-static overflow-auto mh-100 px-3">
+                    <h5><a class="nav-link text-zx1 {% if page.menu == 'home' %}border-bottom border-zx1{% endif %}" href="/" role="button"><i class="fas fa-home"></i> Home</a></h5>
+                </li>
+                <li class="nav-item active dropdown position-static overflow-auto mh-100 px-3">
+                    <h5><a class="nav-link text-zx2 {% if page.menu == 'news' %}border-bottom border-zx2{% endif %}" href="/news" role="button"><i class="far fa-newspaper"></i> News</a></h5>
+                </li>
+                <li class="nav-item active dropdown position-static overflow-auto mh-100 px-3">
+                    <h5><a class="nav-link text-zx3 {% if page.menu == 'learning' %}border-bottom border-zx3{% endif %}" href="/learning" role="button"><i class="fas fa-chalkboard-teacher"></i> Learning</a></h5>
+                </li>
+                <li class="nav-item active dropdown position-static overflow-auto mh-100 px-3">
+                    <h5><a class="nav-link text-zx4 {% if page.menu == 'ctfs' %}border-bottom border-zx4{% endif %}" href="/ctf" role="button"><i class="far fa-flag"></i> CTFs</a></h5>
+                </li>
+
+            </ul>
+        </div>
+
+        <!-- Right menu -->
+        <ul class="navbar-nav w-50 order-1 order-md-last justify-content-end align-items-center d-none d-lg-flex">
+
+        </ul>
+
+
+    </nav>

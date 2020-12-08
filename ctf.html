@@ -1,0 +1,105 @@
+---
+title: CTFs
+layout: default
+menu: ctfs
+---
+
+<div class="container py-5">
+
+    <div class="row justify-content-center mb-lg-4">
+        <div class="col-12 col-lg-8 border-bottom border-zx4">
+            <h3 class="text-zx4 text-center text-lg-left"><i class="far fa-flag"></i> Challenge writeups</h3>
+        </div>
+    </div>
+
+    {% assign posts = site.posts | where:"writeups", "true" %}
+    <div class="row justify-content-center mt-1 d-none d-lg-flex">
+
+        <!-- Desktop -->
+        <div class="col-lg-8">
+            <ul>
+                {% for post in posts %}
+                <li>
+                    <time class="text-monospace" datetime="{{ post.date | date_to_xmlschema }}"
+                        itemprop="datePublished">{{ post.date | date: "%d/%m/%Y" }}</time>:
+                    <a href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.ctf}} - {{post.challenge}}
+                    </a>
+                    <div class="float-right">
+                        {% for category in post.categories %}
+                        <span class="badge border-white badge-{{category}}">{{category}}</span>
+                        {% endfor %}
+
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    {% for post in posts %}
+    <div class="row justify-content-center mt-1 d-block d-lg-none">
+
+        <!-- Mobile -->
+        <div class="col-12 text-center mt-3">
+            <time datetime="{{ post.date | date_to_xmlschema }}"
+                itemprop="datePublished">{{ post.date | date: "%d/%m/%Y" }}</time>
+        </div>
+
+        <div class="col-12 text-center">
+            <a class='font-weight-bold ml-3' href="{{site.url}}{{site.baseurl}}{{post.url}}">
+                {{post.ctf}} - {{post.challenge}}
+            </a>
+        </div>
+
+        <div class="col-12 text-center">
+            {{post.author}} - 
+            {% for category in post.categories %}
+            <span class="badge border-white badge-{{category}}">{{category}}</span>
+            {% endfor %}
+        </div>
+
+    </div>
+    {% endfor %}
+
+    {% assign years = "2020|2019|2018|2017" | split: "|" %}
+    {% for year in years %}
+
+    <div class="row justify-content-center mt-4">
+        <div class="col-12 col-lg-8 border-bottom border-zx4">
+            <h3 class="text-zx4 text-center text-lg-left"><i class="far fa-flag"></i> {{year}} CTFs</h3>
+        </div>
+    </div>
+
+    <div class="row justify-content-center mt-3">
+
+        <!-- Desktop -->
+        <div class="col-lg-8 d-none d-lg-block">
+            <ul>
+                {% for ctf in site.data.ctf[year] %}
+                <li>
+                    <span class="text-monospace">{{ctf.from}} - {{ctf.to}}</span>: <a
+                        href="{{ctf.link}}">{{ctf.name}}</a> - <span>Ranked
+                        <b>#{{ctf.position}}</b> out of {{ctf.teams}} </span>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <!-- Mobile -->
+        {% for ctf in site.data.ctf[year] %}
+        <div class="col-12 d-block d-lg-none text-center mt-3">
+            <span class="text-monospace">{{ctf.from}} - {{ctf.to}}</span>
+        </div>
+        <div class="col-12 d-block d-lg-none text-center">
+            <a href="{{ctf.link}}">{{ctf.name}}</a>
+        </div>
+        <div class="col-12 d-block d-lg-none text-center">
+            Ranked <b>#{{ctf.position}}</b> out of {{ctf.teams}}
+        </div>
+        {% endfor %}
+
+    </div>
+
+    {% endfor %}
+
+</div>

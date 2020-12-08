@@ -1,0 +1,56 @@
+{
+    "2020": [
+        {"from": "18/11/2020", "to": "18/11/2020", "name": "Cyber Battle of The Emirates", "link":"https://cyberweek.ae/2020/cboe/", "position": "1", "teams": "16"},
+        {"from": "14/11/2020", "to": "14/11/2020", "name": "m0leCon CTF 2020", "link":"https://ctftime.org/event/1135", "position": "6", "teams": "276"},
+        {"from": "17/10/2020", "to": "17/10/2020", "name": "mHackeCTF - Enterprise Edition", "link":"https://ctftime.org/event/1053", "position": "3", "teams": "55"},
+        {"from": "22/05/2020", "to": "23/05/2020", "name": "m0leCon CTF 2020 Teaser", "link":"https://ctftime.org/event/1025", "position": "4", "teams": "461"},
+        {"from": "01/05/2020", "to": "01/05/2020", "name": "Covid-19 CTF", "link":"https://ctftime.org/event/1047", "position": "10", "teams": "404"},
+        {"from": "12/04/2020", "to": "12/04/2020", "name": "STAY ~/ CTF 2020", "link":"https://ctftime.org/event/1024", "position": "2", "teams": "86"},
+        {"from": "21/03/2020", "to": "22/03/2020", "name": "saarCTF 2020", "link":"https://ctftime.org/event/980", "position": "5", "teams": "81"},
+        {"from": "02/02/2020", "to": "02/02/2020", "name": "RundergroundCTF #1", "link":"https://ctftime.org/event/968", "position": "11", "teams": "101"}
+    ],
+    "2019": [
+        {"from": "23/11/2020", "to": "23/11/2019", "name": "RuCTFE 2019", "link": "https://ctftime.org/event/906", "position": "7", "teams": "187"},
+        {"from": "11/10/2020", "to": "12/10/2019", "name": "Reply Cyber Security Challenge", "link": "https://ctftime.org/event/888", "position": "1", "teams": "237"},
+        {"from": "13/09/2020", "to": "15/09/2019", "name": "CSAW CTF Qualification Round 2019", "link": "https://ctftime.org/event/870", "position": "83", "teams": "1301"},
+        {"from": "25/05/2020", "to": "26/05/2019", "name": "FAUST CTF 2019", "link": "https://ctftime.org/event/776", "position": "32", "teams": "53"},
+        {"from": "11/05/2020", "to": "13/05/2019", "name": "DEF CON CTF Qualifier 2019", "link": "https://ctftime.org/event/762", "position": "134", "teams": "1262"},
+        {"from": "02/05/2020", "to": "05/05/2019", "name": "INS'hAck 2019", "link": "https://ctftime.org/event/763", "position": "41", "teams": "765"},
+        {"from": "26/04/2020", "to": "29/04/2019", "name": "RuCTF Finals 2019", "link": "https://ctftime.org/event/734", "position": "14", "teams": "28"},
+        {"from": "20/04/2020", "to": "22/04/2019", "name": "ASIS CTF Quals 2019", "link": "https://ctftime.org/event/732", "position": "34", "teams": "585"},
+        {"from": "12/04/2020", "to": "14/04/2019", "name": "PlaidCTF 2019", "link": "https://ctftime.org/event/743", "position": "100", "teams": "953"},
+        {"from": "06/04/2020", "to": "08/04/2019", "name": "SwampCTF 2019", "link": "https://ctftime.org/event/779", "position": "20", "teams": "772"},
+        {"from": "03/04/2020", "to": "04/04/2019", "name": "RADARCTF", "link": "https://ctftime.org/event/787", "position": "21", "teams": "347"},
+        {"from": "02/04/2020", "to": "04/04/2019", "name": "ENCRYPT CTF", "link": "https://ctftime.org/event/771", "position": "14", "teams": "681"},
+        {"from": "29/03/2020", "to": "31/03/2019", "name": "VolgaCTF 2019 Qualifier", "link": "https://ctftime.org/event/713", "position": "47", "teams": "414"},
+        {"from": "16/03/2020", "to": "17/03/2019", "name": "CONFidence CTF 2019 Teaser", "link": "https://ctftime.org/event/760", "position": "75", "teams": "546"},
+        {"from": "15/03/2020", "to": "16/03/2019", "name": "UCSB iCTF 2019", "link": "https://ctftime.org/event/747", "position": "107", "teams": "398"},
+        {"from": "09/03/2020", "to": "11/03/2019", "name": "UTCTF", "link": "https://ctftime.org/event/757", "position": "21", "teams": "581"},
+        {"from": "23/03/2020", "to": "04/03/2019", "name": "TAMUctf 19", "link": "https://ctftime.org/event/740", "position": "77", "teams": "1866"},
+        {"from": "02/02/2020", "to": "03/02/2019", "name": "Evlz CTF", "link": "https://ctftime.org/event/723", "position": "37", "teams": "176"},
+        {"from": "19/01/2019", "to": "20/01/2019", "name": "Insomni'hack teaser 2019", "link": "https://ctftime.org/event/686", "position": "121", "teams": "236"}
+    ],
+    "2018": [
+        {"from": "27/12/2018", "to": "29/12/2018", "name": "35C3 Junior", "link": "https://archive.aachen.ccc.de/junior.35c3ctf.ccc.ac/index.html", "position": "3", "teams": "520"},
+        {"from": "14/12/2018", "to": "21/12/2018", "name": "X-MAS CTF 2018", "link": "https://www.xmas-ctf.cf/", "position": "15", "teams": "1378"},
+        {"from": "06/12/2018", "to": "10/12/2018", "name": "OtterCTF", "link": "https://ctftime.org/event/711", "position": "1", "teams": "304"},
+        {"from": "23/11/2018", "to": "25/11/2018", "name": "TUCTF 2018", "link": "https://ctftime.org/event/650", "position": "18", "teams": "130"},
+        {"from": "18/11/2018", "to": "18/11/2018", "name": "RITSec CTF 2018", "link": "https://ctftime.org/event/682", "position": "22", "teams": "952"},
+        {"from": "10/11/2018", "to": "10/11/2018", "name": "RuCTFE 2018", "link": "https://ctftime.org/event/687", "position": "31", "teams": "96"},
+        {"from": "13/09/2018", "to": "14/09/2018", "name": "Sec-T CTF", "link": "https://ctftime.org/event/668", "position": "30", "teams": "463"},
+        {"from": "15/08/2018", "to": "16/08/2018", "name": "Hackcon 2018", "link": "https://ctftime.org/event/652", "position": "30", "teams": "461"},
+        {"from": "31/05/2018", "to": "01/06/2018", "name": "Security Fest CTF", "link": "https://ctftime.org/event/622", "position": "36", "teams": "546"},
+        {"from": "13/04/2018", "to": "15/04/2018", "name": "WPICTF 2018", "link": "https://ctftime.org/event/600", "position": "34", "teams": "605"},
+        {"from": "05/04/2018", "to": "08/04/2018", "name": "INS'hAck 2018", "link": "https://ctftime.org/event/592", "position": "12", "teams": "553"},
+        {"from": "30/03/2018", "to": "01/04/2018", "name": "SwampCTF 2018", "link": "https://ctftime.org/event/590", "position": "30", "teams": "938"}
+    ],
+    "2017": [
+        {"from": "27/12/2017", "to": "29/12/2017", "name": "34c3-Junior CTF 2017", "link": "https://archive.aachen.ccc.de/junior.34c3ctf.ccc.ac/scoreboard/index.html", "position": "19", "teams": "435"},
+        {"from": "25/08/2017", "to": "25/08/2017", "name": "HackIT CTF 2017", "link": "https://ctftime.org/event/491", "position": "90", "teams": "333"},
+        {"from": "05/08/2017", "to": "05/08/2017", "name": "SHA2017 CTF", "link": "https://ctftime.org/event/478", "position": "63", "teams": "462"},
+        {"from": "07/07/2017", "to": "07/07/2017", "name": "PoliCTF 2017", "link": "https://ctftime.org/event/425", "position": "36", "teams": "252"},
+        {"from": "15/04/2017", "to": "15/04/2017", "name": "BCTF 2017", "link": "https://ctftime.org/event/432", "position": "51", "teams": "300"}
+    ]
+}
+
+

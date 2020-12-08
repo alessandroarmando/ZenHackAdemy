@@ -1,0 +1,42 @@
+---
+layout: default
+menu: ctf
+---
+
+<div class="container py-5">
+
+    <div class="row justify-content-center">
+        <div class="col-12 col-lg-8 text-center">
+            <h3 class="text-zx4">{{page.ctf}} - {{page.challenge}}</h3>
+            {% for category in page.categories %}
+            <span class="badge border-white badge-{{category}}">{{category}}</span>
+            {% endfor %}
+
+            <div class="mt-3">
+                tags:
+                {% for tag in page.tags %}
+                <span class="badge badge-primary">{{tag}}</span>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center mt-3">
+        <div class="col-12 col-lg-8 text-center">
+            <div>
+                {% if page.author %}
+                by {{ page.author }}
+                {% endif %}
+            </div>
+            <time class="text-white" datetime="{{ page.date | date_to_xmlschema }}"
+                itemprop="datePublished">{{ page.date | date: "%d/%m/%Y" }}</time>
+        </div>
+    </div>
+
+    <div class="row justify-content-center mt-5 writeup-container">
+        <div class="col-12 col-lg-8">
+            {{content}}
+        </div>
+    </div>
+
+</div>
