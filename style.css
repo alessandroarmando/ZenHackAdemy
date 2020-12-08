@@ -1,4 +1,5 @@
 :root {
+  --black: #000000;
   --base03: #002b36;
   --base02: #073642;
   --base015: #264b55;
@@ -8,6 +9,7 @@
   --base1: #93a1a1;
   --base2: #eee8d5;
   --base3: #fdf6e3;
+  --base4: #c7c7c5;
   --yellow: #b58900;
   --orange: #cb4b16;
   --red: #dc322f;
@@ -38,16 +40,15 @@
 
 
 body {
-  background-color: var(--base03);
-  color: var(--base0);
-  color: var(--base1);
+  background-color: var(--black);
+  color: var(--base4);
 }
 
 a,
 a:active,
 a:hover,
 a:visited {
-  color: var(--base3);
+  color: var(--zx2);
 }
 
 .text-zx1 { color: var(--zx1) !important; }
