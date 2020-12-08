@@ -19,10 +19,10 @@
   --cyan: #2aa198;
   --green: #859900;
 
-  --zx1: #c01d30;
+  --zx1: #f6ce17;
   --zx2: #f6ce17;
-  --zx3: #89c541;
-  --zx4: #0d75bc;
+  --zx3: #f6ce17;
+  --zx4: #f6ce17;
   
   --rainbow1: #238647;
   --rainbow2: #2F9B47;
@@ -40,7 +40,7 @@
 
 
 body {
-  background-color: var(--black);
+  background-color: var(--base01);
   color: var(--base4);
 }
 
