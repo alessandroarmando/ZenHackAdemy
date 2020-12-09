@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg bg-black text-white shadow p-0 px-lg-3 py-lg-2 navbar-fixed-top">
 
         <div class="d-flex w-50 order px-3 py-2 p-lg-0 text-right text-lg-left">
-            <a href="{{ "/" | prepend: site.baseurl }}" class="navbar-brand"><img src="https://leoctf.dibris.unige.it/themes/core/static/img/ZHA.png" class="d-inline-block align-top" height="52" /></a>
+            <a href="{{ "/" | prepend: site.baseurl }}" class="navbar-brand"><img src="images/zenhackademy.png" class="d-inline-block align-top" height="52" /></a>
         </div>
 
         <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -18,13 +18,10 @@
                     <h5><a class="nav-link text-zx1 {% if page.menu == 'home' %}border-bottom border-zx1{% endif %}" href="{{ "/" | prepend: site.baseurl }}" role="button"><i class="fas fa-home"></i> Home</a></h5>
                 </li>
                 <li class="nav-item active dropdown position-static overflow-auto mh-100 px-3">
-                    <h5><a class="nav-link text-zx2 {% if page.menu == 'news' %}border-bottom border-zx2{% endif %}" href="{{ "/news" | prepend: site.baseurl }}" role="button"><i class="fas fa-rocket"></i> Projects</a></h5>
+                    <h5><a class="nav-link text-zx2 {% if page.menu == 'news' %}border-bottom border-zx2{% endif %}" href="{{ "/projects" | prepend: site.baseurl }}" role="button"><i class="fas fa-rocket"></i> Projects</a></h5>
                 </li>
                 <li class="nav-item active dropdown position-static overflow-auto mh-100 px-3">
-                    <h5><a class="nav-link text-zx3 {% if page.menu == 'learning' %}border-bottom border-zx3{% endif %}" href="{{ "/learning" | prepend: site.baseurl }}" role="button"><i class="fas fa-users"></i> People</a></h5>
-                </li>
-                <!-- <li class="nav-item active dropdown position-static overflow-auto mh-100 px-3"> -->
-                <!--     <h5><a class="nav-link text-zx4 {% if page.menu == 'ctfs' %}border-bottom border-zx4{% endif %}" href="/ctf" role="button"><i class="far fa-flag"></i> CTFs</a></h5> -->
+                    <h5><a class="nav-link text-zx3 {% if page.menu == 'learning' %}border-bottom border-zx3{% endif %}" href="{{ "/people" | prepend: site.baseurl }}" role="button"><i class="fas fa-users"></i> People</a></h5>
                 </li>
 
             </ul>
