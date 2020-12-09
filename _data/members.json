@@ -1,7 +1,37 @@
 [
-    {"name": "Alessandro Armando",        "nickname": "armando",      "description": "Professor @ DIBRIS",             "link": "https://csec.it/people/alessandro_armando", "ctf": ["rev", "pwn"]},
-    {"name": "Gaspare Ferraro",     "nickname": "GaspareG",     "description": "Student @ UniPi",               "link": "https://gaspa.re", "ctf": ["crypto", "ppc"]},
-    {"name": "Giovanni Lagorio",    "nickname": "zxgio",        "description": "Assistant Professor @ DIBRIS",  "link": "#", "ctf": ["rev", "pwn"]},
-    {"name": "Enrico Russo",        "nickname": "enriquez",     "description": "PhD student @ DIBRIS",          "link": "#", "ctf": ["network"]},
-    {"name": "Andrea Valenza",      "nickname": "avalz",        "description": "Software Security Consultant @ IMQ Minded Security",          "link": "https://avalz.it", "ctf": ["web"]}
+    {
+        "name": "Alessandro Armando",
+        "nickname": "armando",
+        "description": "Professor @ DIBRIS",
+        "link": "https://csec.it/people/alessandro_armando",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec mi vitae turpis cursus feugiat vitae eget nibh. Morbi metus ipsum, condimentum sit amet neque eget, tincidunt faucibus purus."
+    },
+    {
+        "name": "Gaspare Ferraro",
+        "nickname": "GaspareG",
+        "description": "Student @ UniPi",
+        "link": "https://gaspa.re",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec mi vitae turpis cursus feugiat vitae eget nibh. Morbi metus ipsum, condimentum sit amet neque eget, tincidunt faucibus purus."
+    },
+    {
+        "name": "Giovanni Lagorio",
+        "nickname": "zxgio",
+        "description": "Assistant Professor @ DIBRIS",
+        "link": "https://www.dibris.unige.it/lagorio-giovanni",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec mi vitae turpis cursus feugiat vitae eget nibh. Morbi metus ipsum, condimentum sit amet neque eget, tincidunt faucibus purus."
+    },
+    {
+        "name": "Enrico Russo",
+        "nickname": "enriquez",
+        "description": "PhD student @ DIBRIS",
+        "link": "https://csec.it/people/enrico_russo/",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec mi vitae turpis cursus feugiat vitae eget nibh. Morbi metus ipsum, condimentum sit amet neque eget, tincidunt faucibus purus."
+    },
+    {
+        "name": "Andrea Valenza",
+        "nickname": "avalz",
+        "description": "Software Security Consultant @ IMQ Minded Security",
+        "link": "https://avalz.it",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec mi vitae turpis cursus feugiat vitae eget nibh. Morbi metus ipsum, condimentum sit amet neque eget, tincidunt faucibus purus."
+    }
 ]
