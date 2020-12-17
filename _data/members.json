@@ -11,7 +11,7 @@
         "nickname": "GaspareG",
         "description": "Student @ UniPi",
         "link": "https://gaspa.re",
-        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec mi vitae turpis cursus feugiat vitae eget nibh. Morbi metus ipsum, condimentum sit amet neque eget, tincidunt faucibus purus."
+        "bio": ""
     },
     {
         "name": "Giovanni Lagorio",
@@ -19,6 +19,13 @@
         "description": "Assistant Professor @ DIBRIS",
         "link": "https://www.dibris.unige.it/lagorio-giovanni",
         "bio": "Giovanni Lagorio is interested in ethical hacking, in particular binary reverse engineering and exploitation. He is also a co-founder of ZenHack, and a local organizer of CyberChallenge.IT."
+    },
+    {
+        "name": "Marina Ribaudo",
+        "nickname": "ziaribba",
+        "description": "Associate Professor @ DIBRIS",
+        "link": "https://www.dibris.unige.it/ribaudo-marina",
+        "bio": ""
     },
     {
         "name": "Enrico Russo",
